@@ -26,3 +26,9 @@ To see the list of all options, run
 ```
 python3 lyricist.py -h
 ```
+
+## Notes
+
+Since fetching an artist's songs' lyrics is time-consuming, the script will create a directory titled "artists"
+in the same directory the script is in and save every fetched artist in that directory. Any future searches
+will then use the cached lyrics to save time.
